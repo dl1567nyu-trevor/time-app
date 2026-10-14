@@ -1,3 +1,7 @@
 .env
 node_modules/
 .DS_Store
+
+# 本地模型运行时和权重（本机下载，体积 4GB 以上，不要提交）
+tools/llama/
+tools/models/
