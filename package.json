@@ -7,7 +7,8 @@
     "start": "node server.mjs",
     "start:local": "node server.mjs --local",
     "ai:local": "pwsh -NoProfile -File tools/start-local-ai.ps1",
-    "ai:check": "node tools/check-local-ai.mjs"
+    "ai:check": "node tools/check-local-ai.mjs",
+    "plan:test": "node tools/scheduler.test.mjs"
   },
   "engines": {
     "node": ">=18"
